@@ -76,50 +76,50 @@ The architecture is designed for **scalable, modular, and explainable AI**.
 
 ---
 
-## 📈 Progress Summary
+## Summary
 
-### ✅ **1. Data Gathering & Preprocessing (100%)**
+### ✅ **1. Data Gathering & Preprocessing **
 - Integrated customer reviews, package images, and weather data.  
 - Created synthetic image dataset with CLIP-based captions for “damaged package” categories.  
 - Tokenized and normalized text data, merged with environmental data.
 
 ---
 
-### ⚙️ **2. NLP Models (70%)**
+### ⚙️ **2. NLP Models **
 - Implemented **sentiment classifiers** using BERT and RoBERTa.  
 - Built **topic modeling** pipelines using BERTopic + LDA to detect frequent delivery issues.  
 - Correlated sentiment polarity with logistics KPIs (delay frequency, product type).
 
 ---
 
-### 🧩 **3. Multimodal Integration (40%)**
+### 🧩 **3. Multimodal Integration **
 - Selected **CLIP** for text-image embeddings.  
 - Designed multimodal pipeline combining textual context + image evidence.  
 - Preparing dataset for fusion model fine-tuning.
 
 ---
 
-### 🧠 **4. RAG Prototype (50%)**
+### 🧠 **4. RAG Prototype **
 - Configured **LangChain + FAISS** retrieval system.  
 - Integrated **open-source LLMs (Phi-3, Gemma)** for multimodal question answering.  
 - Working prototype supports file-based and semantic QA.
 
 ---
 
-### 🗺️ **5. Route Optimization (20%)**
+### 🗺️ **5. Route Optimization **
 - Selected **NetworkX** and **OR-Tools**.  
 - Designing dynamic routing model with **weather-dependent edge weights**.  
 - Planning ETA prediction and real-time re-routing simulation.
 
 ---
 
-### 🪶 **6. Explainability & Metrics (10%)**
+### 🪶 **6. Explainability & Metrics **
 - Drafted **Delivery Resilience Index (DRI)** formula combining delay, sentiment, and damage rates.  
 - SHAP and LIME integration planned for interpretability.
 
 ---
 
-### ⏳ **7. Streamlit App (10%)**
+### ⏳ **7. Streamlit App **
 - UI wireframe designed.  
 - Planned workflow:
   - **Input:** Review + Image + Weather  
@@ -128,19 +128,6 @@ The architecture is designed for **scalable, modular, and explainable AI**.
 
 ---
 
-## 📊 Overall Progress
-
-| Phase | Status | Progress |
-|-------|---------|-----------|
-| Data Gathering / Cleaning | ✅ Done | 100% |
-| NLP Modeling | ⚙️ Active | 70% |
-| Multimodal Integration | 🧩 In Progress | 40% |
-| RAG System | 🧠 Prototype | 50% |
-| Route Optimization | 🗺️ Design | 20% |
-| Explainability / DRI | 🪶 Planned | 10% |
-| Streamlit App / Deployment | ⏳ Pending | 10% |
-
-**🔵 Total Progress: ~55%**
 
 ---
 
@@ -208,17 +195,10 @@ Delivery-Detective/
 
 ---
 
-## 📌 Future Work
-
-- Train and validate multimodal fusion model on larger dataset.  
-- Integrate real-time weather APIs for live routing.  
-- Complete Streamlit frontend and deploy on Streamlit Cloud.  
-- Write comprehensive final report and submit for capstone evaluation.  
-- (Optional) Extend to **multi-city logistics simulation** for scalability testing.
 
 ---
 
-## 🧑‍💻 Team Vision
+## 🧑‍💻 My Vision
 
 > “To develop an Ivy-League–level capstone demonstrating academic depth, technical excellence, and real-world business impact — bridging AI, data science, and sustainable logistics.”
 
