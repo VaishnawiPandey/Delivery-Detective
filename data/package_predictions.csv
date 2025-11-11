@@ -1,0 +1,4 @@
+image,predicted_label,probability_damaged
+damaged-package-min.jpg,damaged,0.16033759713172913
+deliverypackage.jpg,damaged,0.17726446688175201
+istockphoto-1325458316-612x612.jpg,damaged,0.15605004131793976
